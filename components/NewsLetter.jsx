@@ -21,7 +21,7 @@ const NewsLetter = () => {
 
     setTimeout(() => {
       setHearts((prev) => prev.filter((heart) => !newHearts.some((h) => h.id === heart.id)));
-    }, 3000); // หัวใจจะหายไปหลัง 3 วินาที
+    }, 4000); // หัวใจจะหายไปหลัง 3 วินาที
   };
 
   return (
