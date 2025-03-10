@@ -13,7 +13,7 @@ const{getToken}=useAppContext()
   const [files, setFiles] = useState([]);
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
-  const [category, setCategory] = useState('Earphone');
+  const [category, setCategory] = useState('PC-Game');
   const [price, setPrice] = useState('');
   const [offerPrice, setOfferPrice] = useState('');
 
@@ -37,7 +37,7 @@ const{getToken}=useAppContext()
         setFiles([]);
         setName('');
         setDescription('');
-        setCategory('Earphone')
+        setCategory('PC-Game');
         setPrice('');
         setOfferPrice('');
       } else {

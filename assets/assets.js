@@ -37,12 +37,13 @@ import projector_image from "./projector_image.png"
 import naraka from "./naraka.jpg"
 import playstation_image from "./playstation_image.png"
 import girl_with_headphone_image from "./brawww.jpg"
-import girl_with_earphone_image from "./braw2.jpg"
+import girl_with_earphone_image from "./star.jpg"
 import md_controller_image from "./md_controller_image.png"
 import sm_controller_image from "./sm_controller_image.png"
 import jbl_soundbox_image from "./jbl_soundbox_image.png"
-import boy_with_laptop_image from "./braw3.jpg"
+import boy_with_laptop_image from "./redem.jpg"
 import checkmark from "./checkmark.png"
+import nitendo from "./nitendo.avif"
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png"
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png"
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png"
@@ -50,6 +51,7 @@ import product_details_page_apple_earphone_image4 from "./product_details_page_a
 import product_details_page_apple_earphone_image5 from "./product_details_page_apple_earphone_image5.png"
 
 export const assets = {
+  nitendo,
   logo,
   search_icon,
   user_icon,

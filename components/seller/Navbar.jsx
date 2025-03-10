@@ -1,18 +1,27 @@
-import React from 'react'
-import { assets } from '../../assets/assets'
-import Image from 'next/image'
-import { useAppContext } from '@/context/AppContext'
+import React from "react";
+import { assets } from "../../assets/assets";
+import Image from "next/image";
+import { useAppContext } from "@/context/AppContext";
 
 const Navbar = () => {
-
-  const { router } = useAppContext()
+  const { router } = useAppContext();
 
   return (
-    <div className='flex items-center px-4 md:px-8 py-3 justify-between border-b'>
-      <Image onClick={()=>router.push('/')} className='w-28 lg:w-32 cursor-pointer' src={assets.logo} alt="" />
-      <button className='bg-gray-600 text-white px-5 py-2 sm:px-7 sm:py-2 rounded-full text-xs sm:text-sm'>Logout</button>
-    </div>
-  )
-}
+    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-32 py-4 bg-gray-900 text-white border-b border-gray-700 shadow-lg">
+      {/* Logo */}
+      <Image
+        className="cursor-pointer w-32"
+        onClick={() => router.push("/")}
+        src={assets.logo}
+        alt="logo"
+      />
 
-export default Navbar
+      {/* Logout Button */}
+      <button className="bg-blue-600 hover:bg-blue-500 transition text-white px-5 py-2 sm:px-7 sm:py-2 rounded-full text-xs sm:text-sm">
+        Logout
+      </button>
+    </nav>
+  );
+};
+
+export default Navbar;
